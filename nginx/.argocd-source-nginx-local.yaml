@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: ghcr.io/t2wil/nginx
+    forcestring: true
+  - name: image.tag
+    value: v1.0.2
+    forcestring: true
