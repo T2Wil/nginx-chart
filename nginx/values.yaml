@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: ghcr.io/t2wil/nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.20.0"
+  tag: "v1.0.1"
 
 imagePullSecrets: []
 nameOverride: ""
